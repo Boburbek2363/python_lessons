@@ -1,0 +1,18 @@
+#!/user/bin/env/ pyhton3
+
+def main():
+   while (True):
+      names=input("Enter your friends:")
+      if names=="":
+         break
+      print(names)   
+      names=names.strip()
+      print(names)
+      while (names.find("  ")>=0):
+      #   names=names.replace("  "," ")
+          print(names)  
+      Inames=names.split()
+      print("Goodbye! See U!")
+      
+if __name__=='__main__':
+   main()
