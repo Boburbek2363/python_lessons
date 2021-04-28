@@ -1,0 +1,15 @@
+print('Son topish oyni oynang va g\'alaba qozoning')
+number = int(input("1 dan 10 gacha soni oyladim. Topa olasizmi: "))
+summ = 0
+while True:
+    if number <=6:
+        print('Xato, men oy\'lagan son bundan kattaroq. Yana harakat qiling:\n ')
+        number = int(input(">>> "))
+    elif number >=8:
+        print('Xato, men oy\'lagan son bundan kichik. Yana harakat qiling:\n ')
+        number = int(input(">>> "))
+    elif number == 7:
+        print('Toptingiz',number , 'Sonini oylaganidim')
+        break
+    summ += 1
+    print(summ,"ta orinishda toptingiz")
